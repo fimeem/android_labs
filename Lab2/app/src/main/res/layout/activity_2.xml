@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:visibility="visible"
+    android:padding="12dp"
+
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/viewText"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:background="#91BDC2"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="16sp"
+
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#358994"
+        android:onClick="web"
+        android:text="@string/go"
+        android:textAllCaps="true"
+
+        android:textSize="18sp" />
+</LinearLayout>
+
